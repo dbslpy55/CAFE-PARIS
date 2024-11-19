@@ -1,0 +1,81 @@
+body {
+    background: url('imagenes/taza-cafe.jpg') no-repeat center center fixed;
+    background-size: cover; 
+}
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: DarkGoldenRod;
+    margin-bottom: 5px;
+}
+h2 {
+    font-family: 'Pacifico', cursive;
+    color: #FFE4C4;
+}
+#eslogan {
+    font-family: 'Caveat', cursive;
+    font-style: italic;
+    text-align: center;
+    font-size: 1em;
+    color: CornSilk;
+    border: 2px solid CornSilk;
+    width: 40%;
+    margin: 0 auto; 
+    padding: 10px;
+}
+form {
+    border: 2px solid DarkGoldenRod;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto; 
+    padding: 30px;
+    background-color: black;
+    color: Cornsilk; 
+}
+
+form label {
+    font-family: 'Caveat', cursive;
+    color: Cornsilk;
+    font-size: 1.5em;
+}
+
+form input, form select, form button {
+    display: block; 
+    width: 100%; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: DarkGoldenRod;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2em;
+}
+
+form button:hover {
+    background-color: Cornsilk;
+    color: black;
+}
+ul li a {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+ul li a:active {
+    color: DarkGoldenRod;
+}

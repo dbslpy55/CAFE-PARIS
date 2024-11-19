@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Caveat:ital@1&family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Tu Café Favorito</h1>
+    <p id="eslogan">Un momento de relax</p>
+
+    <ul>
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="carta.html">Nuestra carta</a></li>
+        <li><a href="contacto.html">Contacte con nosotros</a></li>
+    </ul>
+
+    <h2>Contácte con Nosotros</h2>
+    <form>
+        <p>
+            <label for="nombre">Nombre y Apellidos:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre y apellidos" required>
+        </p>
+        <p>
+            <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+        </p>
+        <p>
+            <label for="cafes">Número de cafés al día:</label>
+            <input type="number" id="cafes" name="cafes" min="1" max="5">
+        </p>
+        <p>
+            <label for="ciudad">Seleccione su cafetería:</label>
+            <select id="ciudad" name="ciudad">
+                <option value="Madrid" selected>Madrid</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Sevilla">Sevilla</option>
+            </select>
+        </p>
+        <p>
+            <label>Deseo recibir ofertas y novedades</label>
+            <input type="checkbox" id="suscripcion" name="suscripcion" checked>
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+</body>
+</html>

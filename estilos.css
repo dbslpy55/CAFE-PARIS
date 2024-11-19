@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+    background: url('imagenes/taza-cafe.jpg') no-repeat center center fixed; /* Imagen del logo como fondo */
+    background-size: cover; /* Ajustar la imagen al tamaño de la pantalla */
+    color: #FFFFFF;
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: DarkGoldenRod;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el eslogan */
+#eslogan {
+    font-family: 'Caveat', cursive;
+    font-style: italic;
+    text-align: center;
+    font-size: 1em;
+    color: CornSilk;
+    border: 2px solid CornSilk;
+    width: 40%;
+    margin: 0 auto; 
+    padding: 10px;
+}
+
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    color: #FFE4C4;
+}
+
+ul li {
+    color: white;
+}
+
+ul li a {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+ul li a:active {
+    color: DarkGoldenRod;
+}
+
+.texto-normal {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.2em;
+    color: #FFE4C4;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+}
+
+#logocafe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#contenedor-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
